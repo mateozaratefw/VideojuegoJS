@@ -19,6 +19,10 @@ canvas {
     border: 4px solid #3A32FF;
     border-radius: 8px;
     background-color: #EAF451;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 4px;
+    padding-bottom: 10px;
 }
 
 .btns {
@@ -27,6 +31,7 @@ canvas {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 button {
@@ -67,7 +72,10 @@ p {
     button {
         margin-top: 25px;
     }
-
+    canvas {
+        padding-left: 1px;
+        padding-bottom: 10px;
+    }
     #up,
     #down {
         margin-left: 100%;
