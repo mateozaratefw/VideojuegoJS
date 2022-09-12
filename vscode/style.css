@@ -21,8 +21,9 @@ canvas {
     background-color: #EAF451;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-left: 4px;
-    padding-bottom: 10px;
+    padding-left: 6px; 
+    padding-right: 4px; 
+    padding-bottom: 10px; 
 }
 
 .btns {
@@ -74,11 +75,16 @@ p {
     }
     canvas {
         padding-left: 1px;
-        padding-bottom: 10px;
+        padding-right: 1px;
     }
     #up,
     #down {
         margin-left: 100%;
         margin-right: 100%;
+    }
+}
+@media (min-width: 1024px) {
+    canvas {
+        padding-left: 12px; 
     }
 }
